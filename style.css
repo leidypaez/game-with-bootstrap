@@ -1,0 +1,138 @@
+:root {
+  --color-dark: #0000;
+  --color-light: #ffffff;
+  --color-gold: rgb(197, 192, 192);
+}
+
+body {
+  font-family: 'Slackey', cursive;
+  font-weight: 200;
+  background-color: black;
+  color: #ffffff;
+  letter-spacing: .05rem;
+}
+
+.parallax {
+  background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .75)), url('img/pacman.jpg');
+  background-attachment: fixed;
+  background-position: 100% 30%;
+  background-size: cover;
+  height: 85%;
+}
+
+.lead-xl {
+  font-size: 1.75rem;
+}
+
+.nav-link {
+  margin-left: 2rem;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+.sideways {
+  writing-mode: vertical-lr;
+  display: block;
+  margin:  3.5rem 0;
+  transform: rotate(-180deg);
+}
+
+.text-list {
+  text-decoration: none;
+}
+.all-text {
+  font-family: cursive;
+  padding: 10px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid var(--color-light);
+  border-radius: 4px;
+  color: var(--color-light);
+  padding: 1rem 2.5rem;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.row {
+padding: 30px 15px;
+}
+
+.parallax {
+  background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .75)), url('img/pacman.jpg');
+  background-attachment: fixed;
+  background-position: 100% 30%;
+  background-size: cover;
+  height: 85%;
+}
+
+header .bg-image {
+  background-image: url('img/pacman.jpg');
+  background-attachment: fixed;
+  background-position: 100% 30%;
+  height: 85vh;
+}
+
+.bg-image .mask {
+  background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(50, 64, 223, 0.5));
+}
+
+section#services i {
+  color: rgb(20, 6, 71);
+  padding: 30px 0;
+}
+
+section#services .row:nth-child(2) .col:nth-child(odd) i {
+  background-color: #1a503a;
+}
+
+section#services .row:nth-child(2) .col:nth-child(even) i {
+  background-color: #8b7912;
+}
+
+.six-img {
+  background-color: #c0c0c4;
+}
+.six-img p {
+  color: #191647;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.six-img h2 {
+  color:#464544;
+}
+
+.img-slider h5{
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(93, 93, 241);
+}
+.arcade {
+  padding-bottom: 35px;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+}
+.footer i {
+  font-size: 40px;
+  padding: 10px;
+}
+.footer i p {
+  margin-top: 10px;
+}
+@media (max-width:1199.98px) {
+  .sideways {
+    margin: 2rem 0;
+  }
+  .lead-xl {
+    font-size: 1.25rem;
+  }
+}
